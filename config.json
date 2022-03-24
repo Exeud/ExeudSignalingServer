@@ -1,0 +1,17 @@
+{
+  "socketURL": "/",
+  "dirPath": "",
+  "homePage": "/public/app/index.html",
+  "socketMessageEvent": "RTCMultiConnection-Message",
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
+  "port": "443",
+  "enableLogs": "false",
+  "autoRebootServerOnFailure": "false",
+  "isUseHTTPs": "true",
+  "sslKey": "ssl/privatekey.key",
+  "sslCert": "ssl/certificate.crt",
+  "sslCabundle": "",
+  "enableAdmin": "false",
+  "adminUserName": "username",
+  "adminPassword": "password"
+}
