@@ -35,25 +35,3 @@ connectin.socketURL = 'https://webrtcweb.com:9002/';
 
 * https://github.com/muaz-khan/RTCMultiConnection-Server/wiki/config.json
 
-## Integrate inside nodejs applications
-
-```javascript
-const ioServer = require('socket.io');
-const RTCMultiConnectionServer = require('rtcmulticonnection-server');
-
-ioServer(httpApp).on('connection', function(socket) {
-    RTCMultiConnectionServer.addSocket(socket);
-});
-```
-
-For more information:
-
-* https://github.com/muaz-khan/RTCMultiConnection-Server/wiki/Integrate-inside-nodejs-applications
-
-## Demos
-
-* https://rtcmulticonnection.herokuapp.com/demos/
-
-## License
-
-[RTCMultiConnection Socket.io Server](https://github.com/muaz-khan/RTCMultiConnection-Server) is released under [MIT licence](https://github.com/muaz-khan/RTCMultiConnection/blob/master/LICENSE.md) . Copyright (c) [Muaz Khan](https://MuazKhan.com/).
