@@ -27,13 +27,13 @@ require('rtcmulticonnection-server').addSocket(socket);
 ## Other socket.io servers
 Island Collective fork
 ```javascript
-connectin.socketURL = 'https://rtcmulticonnection-sockets.herokuapp.com:443/';
+connection.socketURL = 'https://rtcmulticonnection-sockets.herokuapp.com:443/';
 ```
 
 Others
 ```javascript
-connectin.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
-connectin.socketURL = 'https://webrtcweb.com:9002/';
+connection.socketURL = 'https://rtcmulticonnection.herokuapp.com:443/';
+connection.socketURL = 'https://webrtcweb.com:9002/';
 ```
 
 ## `config.json`
